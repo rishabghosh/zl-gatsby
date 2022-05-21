@@ -1,5 +1,5 @@
 import React from "react";
-import { FaFacebook, FaInstagram, FaTelegram, FaTwitter, FaWhatsapp } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaTelegram, FaTwitter, FaWhatsapp, FaYoutube } from "react-icons/fa";
 
 const SocialLinks = ({ styleClass }) => {
   return (
@@ -17,6 +17,11 @@ const SocialLinks = ({ styleClass }) => {
       <li>
         <a href="https://instagram.com">
           <FaInstagram className="social-icon instagram-icon"></FaInstagram>
+        </a>
+      </li>
+      <li>
+        <a href="https://youtube.com">
+          <FaYoutube className="social-icon youtube-icon"></FaYoutube>
         </a>
       </li>
       <li>
