@@ -6,7 +6,7 @@
 
 module.exports = {
   /* Your site config here */
-  pathPrefix: "/cbcszoology",
+  pathPrefix: "/zl-gatsby",
   plugins: [
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
