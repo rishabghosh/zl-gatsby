@@ -17,7 +17,7 @@ const About = () => {
         className="img"
       />
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, eligendi.
+        This is abcdxyz.
       </p>
       <SocialLinks styleClass="banner-icons"></SocialLinks>
     </Wrapper>
