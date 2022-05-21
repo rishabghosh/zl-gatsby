@@ -261,8 +261,21 @@ Navbar
 }
 
 .twitter-icon {
-    color: #00acee;
+    color: #057dbd;
 }
+
+.instagram-icon {
+    color: #a11463
+}
+
+.whatsapp-icon {
+    color: #036434
+}
+
+.telegram-icon {
+    color: #057dbd
+}
+
 
 .dribble-icon {
     color: #ea4c89;
