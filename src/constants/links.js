@@ -19,6 +19,12 @@ const Links = ({ styleClass, children }) => {
       <li>
         <Link to="/videos" className="page-link">Videos</Link>
       </li>
+      <li>
+        <Link to="/about" className="page-link">About Us</Link>
+      </li>
+      <li>
+        <Link to="/contact" className="page-link">Contact Us</Link>
+      </li>
     </ul>
   );
 };
