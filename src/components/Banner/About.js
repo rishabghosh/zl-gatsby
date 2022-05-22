@@ -1,5 +1,5 @@
 import React from 'react'
-import SocialLinks from '../../constants/socialLinks'
+import SocialLinks from '../../navigation/socialLinks'
 import { StaticImage } from 'gatsby-plugin-image'
 import Title from './Title'
 import styled from 'styled-components'
