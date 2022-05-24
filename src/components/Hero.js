@@ -1,6 +1,9 @@
 import React from "react";
 import { telegramLink, whatsappLink } from "../constants/socialLinkConstants";
-import { pandaImg, telegramIconImg, whatsappIconImg } from "../constants/imageLinks";
+import { pandaImg } from "../constants/imageLinks";
+import { Link } from "gatsby";
+import { IoLogoWhatsapp } from "react-icons/all";
+import { FaTelegram } from "react-icons/fa";
 
 const Hero = ({ showPerson }) => {
   return (
@@ -27,14 +30,14 @@ const Hero = ({ showPerson }) => {
           </p>
         </div>
         <div className="promotions">
-          <p>Join Our Education Groups</p>
-          <div>
-            <a href={whatsappLink}>
-              <img src={whatsappIconImg} alt="whatsapp" />
-            </a>
-            <a href={telegramLink}>
-              <img src={telegramIconImg} alt="telegram" />
-            </a>
+          <div><strong>Join Study Groups</strong></div>
+          <div className="flex-center">
+            <Link to={whatsappLink} className="flex-center">
+              <IoLogoWhatsapp className="social-icon-large whatsapp-icon" />
+            </Link>
+            <Link to={telegramLink} className="flex-center">
+              <FaTelegram className="social-icon-large telegram-icon" />
+            </Link>
           </div>
         </div>
       </div>
