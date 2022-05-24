@@ -227,12 +227,15 @@ Navbar
 }
 
 .nav-logo {
-    display: block;
-    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
 }
 
-.nav-logo img {
-    height: 100%;
+.h-w-50 {
+    height: 50% !important;
+    width: 50% !important;
 }
 
 .toggle-btn {
@@ -452,7 +455,7 @@ Hero
 
 .hero-person {
     display: none !important;
-    width: 28rem !important;
+    width: 30rem !important;
     height: 28rem !important;
     /*display: block !important;*/
     position: absolute !important;

@@ -1,9 +1,9 @@
 import React from "react";
 import { telegramLink, whatsappLink } from "../constants/socialLinkConstants";
-import { pandaImg } from "../constants/imageLinks";
 import { Link } from "gatsby";
 import { IoLogoWhatsapp } from "react-icons/all";
 import { FaTelegram } from "react-icons/fa";
+import { StaticImage } from "gatsby-plugin-image";
 
 const Hero = ({ showPerson }) => {
   return (
@@ -17,7 +17,7 @@ const Hero = ({ showPerson }) => {
       {/*  />*/}
       {/*)}*/}
       <div className={"hero-person-wrapper"}>
-        <img src={pandaImg} alt="panda" className={"hero-person"} placeholder={"blurred"} />
+        <StaticImage src="../assets/hero.jpeg" alt="panda" className={"hero-person"} placeholder={"blurred"} />
       </div>
       <div className="brief">
         <div className="information">
