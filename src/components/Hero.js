@@ -17,7 +17,10 @@ const Hero = ({ showPerson }) => {
       {/*  />*/}
       {/*)}*/}
       <div className={"hero-person-wrapper"}>
-        <StaticImage src="../assets/hero.jpeg" alt="panda" className={"hero-person"} placeholder={"blurred"} />
+        <StaticImage
+          src="../assets/hero.jpeg"
+          alt="hero"
+          className={"hero-person"} placeholder={"blurred"} />
       </div>
       <div className="brief">
         <div className="information">
